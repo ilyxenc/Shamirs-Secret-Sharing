@@ -41,6 +41,6 @@ for i in range(keys):
     rdTemporary = rd.randint(a, b)
     x.append(rdTemporary)
     y.append(equationResult(rdTemporary, rand, k, s))
-print(x, y)
+print('x :', x, '\ny :', y)
 
-print(polynomialLagrange(x[:3], y[:3]))
+print('Полученный секрет :', polynomialLagrange(x[:3], y[:3]))
